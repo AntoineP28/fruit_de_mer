@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#parent{
+    pad: 5px;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 200px repeat(2, 1fr); 
+    grid-template-rows: 2fr 1fr 15fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "aside main main"
+        "footer footer footer";
+}
+
+header{
+    background-color: cadetblue;
+    grid-area: header;
+}
+
+#tetedepage{
+    background-color: #266ED4;
+    display: flex;
+}
+
+#tetedepage h1{
+    color: white;
+    align-items: center;
+    margin-left: 23rem;
+    margin-top: 5rem;
+    font-style: italic;
+}
+
+.logo img{
+    padding-left: 2rem;
+    padding-top: 0.4rem;
+    width: 200px;
+    height: 200px;
+}
+
+nav{
+    grid-area: nav; 
+}
+
+#navigation li:hover{
+    border-top: 3px solid black;
+}
+
+#navigation li{
+    list-style-type: none;
+    font-size: x-large;
+}
+
+#navigation ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15rem;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+aside{
+    background-color: rgb(53, 232, 134);
+    grid-area: aside; 
+}
+
+main{
+    grid-area: main; 
+}
+
+.explication p{
+    width: 80%;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: larger;
+    text-overflow: ellipsis;
+}
+
+.presentation h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+footer{
+    background-color: #266ED4;
+    grid-area: footer; 
+}
+
+#basdepage ul{
+    display: flex;
+    gap: 15rem;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#basdepage li{
+    font-size: larger;
+    justify-content: space-around;
+}
+
+#basdepage ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#basdepage p {
+    font-size: larger;
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+}
