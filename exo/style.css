@@ -21,6 +21,14 @@ header{
     grid-area: header;
 }
 
+.button{
+    height: 20%;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    border-radius: 15px 15px 15px 15px / 15px 15px 15px;
+    background-color: white;
+}
+
 #tetedepage{
     background-color: #266ED4;
     display: flex;
@@ -39,6 +47,7 @@ header{
     padding-top: 0.4rem;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
 }
 
 nav{
@@ -86,6 +95,18 @@ main{
 .presentation h2{
     text-align: center;
     margin-top: 3rem;
+}
+
+.Atouts h2{
+    text-align: center;
+    list-style-type: decimal;
+    margin-top: 4rem;
+}
+
+.Atouts li{
+    padding-top: 2rem;
+    width: 80%;
+    text-overflow: ellipsis;
 }
 
 footer{
