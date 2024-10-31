@@ -27,6 +27,7 @@ header{
     margin-top: 5rem;
     border-radius: 15px 15px 15px 15px / 15px 15px 15px;
     background-color: white;
+    cursor: pointer;
 }
 
 #tetedepage{
